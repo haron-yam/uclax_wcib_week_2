@@ -1,5 +1,62 @@
 body {
   background-image: url("/images/background.jpg");
-  font-family: sans-serif; }
-  body img {
-    width: 100%; }
+  background-position: top center;
+  font-family: "trebuchet MS", Verdana, sans-serif; }
+  body image {
+    size: 100%;
+    object-fit: cover; }
+  body .logo {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px; }
+  body .youtube {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 100px; }
+  body .albumcover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; }
+  body p {
+    color: white;
+    font-size: 120%;
+    background-color: grey;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px red, 2px 2px 1px red; }
+  body ol {
+    text-align: center;
+    border: 2px solid;
+    padding: 100px;
+    font-weight: lighter;
+    list-style-type: upper-roman; }
+  body a {
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: white; }
+  body a:link {
+    background-color: #128a7d; }
+  body a:visited {
+    color: grey; }
+  body a:focus {
+    color: white;
+    background: red; }
+  body a:hover {
+    background-color: #02798b;
+    opacity: 0.8; }
+  body footer {
+    font-size: 150%;
+    text-align: center; }
