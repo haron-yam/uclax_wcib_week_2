@@ -2,7 +2,8 @@ body {
   background-image: url("../images/background.jpg");
   font-family: "trebuchet MS", Verdana, sans-serif; }
   body image {
-    resize: 100%;
+    width: 100%;
+    height: auto;
     object-fit: cover; }
   body iframe {
     border: 0; }
